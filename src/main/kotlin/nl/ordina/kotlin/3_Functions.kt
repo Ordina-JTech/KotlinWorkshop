@@ -12,7 +12,7 @@ fun printAdd() {
 }
 
 //Also a one line function
-fun functionWithDefaultParameter(str: String = "test" ) { println(str) }
+fun functionWithDefaultParameter(str: String = "test" )  { println(str) }
 
 // Extension functions
 fun String.prefix(prefix: String) : String {
@@ -26,9 +26,5 @@ fun main(args: Array<String>) {
     functionWithDefaultParameter("different name")
     println("Sir Davos".prefix("Hello"))
 }
-
-
-
-//Extension properties
 
 

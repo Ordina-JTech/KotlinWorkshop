@@ -1,10 +1,10 @@
 package nl.ordina.kotlin
 
-import nl.ordina.kotlin.helper.JavaClass
+import nl.ordina.kotlin.helper.JavaExampleClass
 
 fun main(args: Array<String>) {
 
-   var javaClass = JavaClass("Java", true)
+   var javaClass = JavaExampleClass("Java", true)
 
     println(javaClass.isBool)
     println(javaClass.str)

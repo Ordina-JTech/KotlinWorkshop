@@ -1,19 +1,15 @@
 package nl.ordina.kotlin
 
-import java.util.*
-
-
 //Primary constructor
 class Workshop () {
-
      var name = "Kotlin"
 
-    //Override the get implementation.
+    //Override the get implementation, extension property
      val customGetter : String
             get() = name.reversed()
 
-    //Secondary constructor
-    constructor(name: String) : this() {
+    //Secondary constructor, with default value
+    constructor(name: String = "Default") : this() {
         this.name = name
     }
 }
@@ -23,7 +19,6 @@ class Workshop () {
 data class Pojo(var id: Int, var name: String, val type: String)
 
 fun main(args: Array<String>) {
-
     val kotlinWorkshop = Workshop()
     println("Today's language is: ${kotlinWorkshop.name}")
     println("${kotlinWorkshop.name} reversed is ${kotlinWorkshop.customGetter}")

@@ -1,12 +1,12 @@
 package nl.ordina.kotlin.helper;
 
-public class JavaClass {
+public class JavaExampleClass {
 
     private String str;
 
     private boolean bool;
 
-    public JavaClass(String arg1, boolean arg2) {
+    public JavaExampleClass(String arg1, boolean arg2) {
         str = arg1;
         bool = arg2;
     }

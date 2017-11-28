@@ -1,13 +1,12 @@
 package nl.ordina.kotlin
 
 fun main(args: Array<String>) {
-
     ifElse()
     whenThen()
-
     iteratingOverCollection()
     iteratingOverMap()
     iteratingOverCollectionWithIndex()
+    forLoop()
 }
 
 fun ifElse() {

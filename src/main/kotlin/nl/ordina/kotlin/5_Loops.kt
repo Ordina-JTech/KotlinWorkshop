@@ -1,7 +1,6 @@
 package nl.ordina.kotlin
 
 fun main(args: Array<String>) {
-
     for (a: Int in 1..10) {
         println("First example $a")
 

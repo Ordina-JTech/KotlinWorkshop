@@ -1,10 +1,6 @@
 package nl.ordina.kotlin
 
 
-//Constants
-const val CONSTANT = "This is a constant"
-
-
 fun main(args: Array<String>) {
 
 
@@ -22,19 +18,15 @@ fun main(args: Array<String>) {
     // If uncommented it won't compile
     // immutableVar += 3
 
-
-    // val is read-only reference, not object
+    // val is a read-only reference, not a object
     val languages = mutableListOf("Java")
     languages.add("Kotlin")
     println(languages)
-
-    println("Constant: ${CONSTANT}")
 
     val multiLineString = """ This String has
         | multiple lines
         | of code
         """
-
     println(multiLineString)
 
 }
