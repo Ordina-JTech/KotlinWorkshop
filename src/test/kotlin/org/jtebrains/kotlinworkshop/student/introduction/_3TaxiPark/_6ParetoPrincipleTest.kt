@@ -5,7 +5,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.*
 import org.junit.Test
 import kotlin.test.*
 
-class _6TestParetoPrinciple {
+class _6ParetoPrincipleTest {
     @Test
     fun testParetoPrincipleSucceeds() {
         // 20% of the drivers: 1

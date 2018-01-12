@@ -7,7 +7,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._1Nullability.sendMessa
 import org.junit.Test
 import kotlin.test.assertEquals
 
-class TestSendMessage {
+class SendMessageTest {
     fun testSendMessageToClient(
             client: Client?,
             message: String?,

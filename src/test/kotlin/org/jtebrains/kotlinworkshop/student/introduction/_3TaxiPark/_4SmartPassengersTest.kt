@@ -5,7 +5,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.*
 import org.junit.Test
 import kotlin.test.*
 
-class _4TestSmartPassengers {
+class _4SmartPassengersTest {
     @Test
     fun testSmartPassengers() {
         val park = taxiPark(1..2, 1..2, order(1, 1, discount = 0.1), order(2, 2))

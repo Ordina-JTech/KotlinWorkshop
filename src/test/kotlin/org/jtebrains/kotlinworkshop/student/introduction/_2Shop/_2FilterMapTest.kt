@@ -5,7 +5,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
 import org.junit.Test
 import kotlin.test.*
 
-class _2FilterMap {
+class _2FilterMapTest {
     @Test fun testCitiesCustomersAreFrom() {
         assertEquals(setOf(Canberra, Vancouver, Budapest, Ankara, Tokyo), shop.getCitiesCustomersAreFrom())
     }
