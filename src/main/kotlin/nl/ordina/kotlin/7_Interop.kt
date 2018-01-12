@@ -1,6 +1,6 @@
 package nl.ordina.kotlin
 
-import nl.ordina.kotlin.helper.JavaExampleClass
+import nl.ordina.helper.JavaExampleClass
 
 fun main(args: Array<String>) {
 
