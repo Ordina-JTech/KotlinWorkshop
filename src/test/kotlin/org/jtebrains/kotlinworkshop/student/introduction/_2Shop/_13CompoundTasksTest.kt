@@ -4,7 +4,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
 import org.junit.Test
 import kotlin.test.*
 
-class _13CompoundTasks {
+class _13CompoundTasksTest {
     @Test fun testGetCustomersWhoOrderedProduct() {
         assertEquals(setOf(customers[reka], customers[asuka]), shop.getCustomersWhoOrderedProduct(idea))
     }

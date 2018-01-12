@@ -4,7 +4,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
 import org.junit.Test
 import kotlin.test.*
 
-class _7Sum {
+class _7SumTest {
     @Test fun testGetTotalOrderPrice() {
         assertEquals(148.0, customers[nathan]!!.getTotalOrderPrice())
     }

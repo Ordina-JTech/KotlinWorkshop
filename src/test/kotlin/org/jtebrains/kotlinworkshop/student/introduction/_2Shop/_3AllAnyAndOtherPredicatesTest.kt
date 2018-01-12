@@ -5,7 +5,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
 import org.junit.Test
 import kotlin.test.*
 
-class _3AllAnyAndOtherPredicates {
+class _3AllAnyAndOtherPredicatesTest {
     @Test fun testCustomerIsFromCity() {
         assertTrue(customers[lucas]!!.isFrom(Canberra))
         assertFalse(customers[lucas]!!.isFrom(Budapest))

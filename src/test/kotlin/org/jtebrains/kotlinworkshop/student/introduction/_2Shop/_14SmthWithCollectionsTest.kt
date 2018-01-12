@@ -4,7 +4,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
 import org.junit.Test
 import kotlin.test.*
 
-class _14SmthWithCollections {
+class _14SmthWithCollectionsTest {
     @Test fun testCollectionOfOneElement() {
         doTest(listOf("a"), listOf("a"))
     }

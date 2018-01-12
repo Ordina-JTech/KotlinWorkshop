@@ -4,7 +4,7 @@ import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
 import org.junit.Test
 import kotlin.test.*
 
-class _11Partition {
+class _11PartitionTest {
     @Test fun testGetCustomersWhoHaveMoreUndeliveredOrdersThanDelivered() {
         assertEquals(setOf(customers[reka]), shop.getCustomersWithMoreUndeliveredOrdersThanDelivered())
     }
